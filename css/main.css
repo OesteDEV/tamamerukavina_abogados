@@ -11,14 +11,24 @@
   background-color: #b01afe;
   color: #fff;
 }
-
 .text-contact {
-    font-size: x-large;
+    font-size: initial;
     color: slategrey;
 }
-
+#secvice{
+    background-color: #e6e6e6;
+}
+#contact {
+    background-color: #f3f3f38f;
+}
+.copy {
+    background-color: black;
+    color: white;
+    font-size: smaller;
+    padding-top: 0.1em;
+}
 ::selection {
-  background-color: #b01afe;
+  background-color: #484646;
   color: #fff;
 }
 
@@ -55,10 +65,10 @@
 }
 
 body {
-  color: #777777;
+  color: #000000;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.625em;
   position: relative;
 }
@@ -787,11 +797,11 @@ td, th {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 25px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 h3 {
@@ -1915,7 +1925,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-nav a {
   color: #fff;
-  padding: 20px;
+  padding: 1em;
 }
 
 @media (max-width: 992px) {
@@ -1931,7 +1941,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .section-title {
@@ -1954,15 +1965,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .p1-gradient-bg, .primary-btn, .primary-btn2:hover, .single-feature:hover, .video-area .overlay-bg, .single-footer-widget .click-btn, .generic-banner {
-  background-image: -moz-linear-gradient(0deg, #77aae8c9 0%, #11215a 100%);
-  background-image: -webkit-linear-gradient(0deg, #77aae8c9 0%, #11215a 100%);
-  background-image: -ms-linear-gradient(0deg, #77aae8c9 0%, #11215a 100%);
+  background-image: -moz-linear-gradient(0deg, #b3bbbf 0%, #b3bbbf 100%);
+  background-image: -webkit-linear-gradient(0deg, #b3bbbf 0%, #b3bbbf 100%);
+  background-image: -ms-linear-gradient(0deg, #b3bbbf 0%, #b3bbbf 100%);
 }
 
 .p1-gradient-color, .counter-left h2, .footer-social a:hover i, .single-footer-widget .bb-btn {
-  background: -moz-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background: -ms-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
+  background: -moz-linear-gradient(0deg, #ffc107 0%, #fdfdfd 100%);
+  background: -webkit-linear-gradient(0deg, #ffc107 0%, #fdfdfd 100%);
+  background: -ms-linear-gradient(0deg, #ffc107 0%, #fdfdfd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2061,7 +2072,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   .default-header {
-    background-color: #222;
+    background-color: #34495E;
   }
 }
 
@@ -2172,7 +2183,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 414px) {
   .default-banner h1 {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 
@@ -2284,7 +2295,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project-area {
-  background-color: #f9f9ff;
+  background-color: #d8d8d8;
 }
 
 .active-works-carousel .item .thumb {
@@ -2358,7 +2369,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-feature {
-  background-color: #ececec;
+  background-color: #ffffffa6;
   padding: 30px 30px 15px 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2420,14 +2431,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .cv-area {
   background-image: url("../img/cv.jpg");
+  height: 400px;
 }
 .text-cv {
-    color: black;
-    font-size: large;
+    color: white;
+    font-size: inherit;
 }
 .text-title-cv {
-    font-size: -webkit-xxx-large;
-    padding-bottom: 1em;
+    font-size: x-large;
+    color: white;
 }
 .counter-left {
   text-align: right;
@@ -2559,7 +2571,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-area {
   padding-top: 100px;
-  background-color: #222222;
+  background-color: #34495e;
 }
 
 h6 {
@@ -2574,7 +2586,7 @@ h6 {
 }
 
 .footer-social a {
-  padding-right: 25px;
+  padding: 0.5em;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2587,11 +2599,12 @@ h6 {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  font-size: 2em;
 }
 
 @media (max-width: 991px) {
   .footer-social {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -2698,9 +2711,9 @@ h6 {
 }
 
 .footer-text {
-  padding-top: 20px;
+    padding-top: 1em;
+    color: white;
 }
-
 .footer-text a, .footer-text i {
   color: #b01afe;
 }
